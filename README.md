@@ -9,6 +9,6 @@
 ## User Experience and Interaction Flow
 * User taps on upload icon: This initiates the image selection process.
 * CustomBottomSheet appears: Offers user options to pick or capture an image.
-* User selects/captures and crops an image: Using tools provided by CameraGalleryHelper and possibly image_cropper.
+* User selects/captures and crops an image: Using tools provided by ```CameraGalleryHelper``` and possibly ```image_cropper```.
 * Image is processed and returned: The selected image is cropped and processed, then passed back via the photoObject callback.
-* State update in EditProfileController: The new image data is set in the controller, updating the UI reactively.
+* State update in ```EditProfileController```: The new image data is set in the controller, updating the UI reactively.
